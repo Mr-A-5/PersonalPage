@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+    --color-primary: #000000;
+    --color-primary-var: #000000;
+    --color-secondary: #000000;
+    --color-secondary-var: #000000;
+    --color-bg: #000000;
+    --color-textColor: #000000;
+    --color-icon: #000000;
+}
+
+[data-theme='BallonGirl'] {
+    --color-primary: #fedb66;
+    --color-primary-var: #f4c419;
+    --color-secondary: #be3d53;
+    --color-secondary-var: #dd4b3e;
+    --color-bg: #191c21;
+    --color-textColor: #ffffff;
+    --color-icon: #ffffff;
+}
+
+[data-theme='IWishThatICouldFall'] {
+    --color-primary: #1b5ea5;
+    --color-primary-var: #2a63a2;
+    --color-secondary: #9bdda0;
+    --color-secondary-var: #2a6d63;
+    --color-bg: #b7eaff;
+    --color-textColor: #ffffff;
+    --color-icon: #ffffff;
+}

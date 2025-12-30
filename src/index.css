@@ -1,0 +1,55 @@
+@layer base {
+    * {
+        transition: background-color 1s ease;
+    }
+
+    .bg-primary {
+        background-color: var(--color-primary);
+    }
+    .bg-primary-var {
+        background-color: var(--color-primary-var);
+    }
+    .text-textColor {
+        color: var(--color-textColor);
+    }
+    .bg-secondary {
+        background-color: var(--color-secondary);
+    }
+    .bg-secondary-var {
+        background-color: var(--color-secondary-var);
+    }
+    .bg-bg {
+        background-color: var(--color-bg);
+        color: var(--color-textColor);
+    }
+    .ring-primary {
+        --tw-ring-color: var(--color-primary);
+    }
+    .ring-secondary {
+        --tw-ring-color: var(--color-secondary);
+    }
+    .ring-bg {
+        --tw-ring-color: var(--color-bg);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+.animate-fade {
+    animation: fade 4s ease-in-out forwards;
+}
