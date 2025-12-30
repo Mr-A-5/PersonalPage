@@ -8,7 +8,7 @@ import Layout from './components/sections/Layout';
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/PersonalPage">
                 <ColorProvider>
                     <PlayingProvider>
                         <section className="overflow-hidden">
