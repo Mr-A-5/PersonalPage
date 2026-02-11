@@ -51,7 +51,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div
-                    className="flex flex-col justify-center items-center h-fit w-full px-10
+                    className="flex flex-col justify-center items-center h-fit w-full px-10 gap-y-4
                     max-w-140
                     md:max-w-100 md:px-0
                     lg:max-w-130

@@ -290,52 +290,28 @@ const PillNav: React.FC<PillNavProps> = ({
                 aria-label="Primary"
                 style={cssVars}
             >
-                {isRouterLink(items?.[0]?.href) ? (
-                    <Link
-                        to={items[0].href}
-                        aria-label="Home"
-                        onMouseEnter={handleLogoEnter}
-                        role="menuitem"
-                        ref={(el) => {
-                            logoRef.current = el;
-                        }}
-                        className="rounded-full p-2 inline-flex items-center justify-center overflow-hidden"
-                        style={{
-                            width: 'var(--nav-h)',
-                            height: 'var(--nav-h)',
-                            background: 'var(--base, #000)',
-                        }}
-                    >
-                        <img
-                            src={logo}
-                            alt={logoAlt}
-                            ref={logoImgRef}
-                            className="w-full h-full object-cover block rounded-full"
-                        />
-                    </Link>
-                ) : (
-                    <a
-                        href={items?.[0]?.href || '#'}
-                        aria-label="Home"
-                        onMouseEnter={handleLogoEnter}
-                        ref={(el) => {
-                            logoRef.current = el;
-                        }}
-                        className="rounded-full p-2 inline-flex items-center justify-center overflow-hidden"
-                        style={{
-                            width: 'var(--nav-h)',
-                            height: 'var(--nav-h)',
-                            background: 'var(--base, #000)',
-                        }}
-                    >
-                        <img
-                            src={logo}
-                            alt={logoAlt}
-                            ref={logoImgRef}
-                            className="w-full h-full object-cover block"
-                        />
-                    </a>
-                )}
+                <Link
+                    to={items[0].href}
+                    aria-label="Home"
+                    onMouseEnter={handleLogoEnter}
+                    role="menuitem"
+                    ref={(el) => {
+                        logoRef.current = el;
+                    }}
+                    className="rounded-full p-2 inline-flex items-center justify-center overflow-hidden"
+                    style={{
+                        width: 'var(--nav-h)',
+                        height: 'var(--nav-h)',
+                        background: 'var(--base, #000)',
+                    }}
+                >
+                    <img
+                        src={logo}
+                        alt={logoAlt}
+                        ref={logoImgRef}
+                        className="w-full h-full object-cover block rounded-full"
+                    />
+                </Link>
 
                 <div
                     ref={navItemsRef}
@@ -428,9 +404,9 @@ const PillNav: React.FC<PillNavProps> = ({
                                             {PillContent}
                                         </Link>
                                     ) : (
-                                        <a
+                                        <Link
                                             role="menuitem"
-                                            href={item.href}
+                                            to={item.href}
                                             className={basePillClasses}
                                             style={pillStyle}
                                             aria-label={
@@ -440,7 +416,7 @@ const PillNav: React.FC<PillNavProps> = ({
                                             onMouseLeave={() => handleLeave(i)}
                                         >
                                             {PillContent}
-                                        </a>
+                                        </Link>
                                     )}
                                 </li>
                             );
@@ -520,8 +496,8 @@ const PillNav: React.FC<PillNavProps> = ({
                                         {item.label}
                                     </Link>
                                 ) : (
-                                    <a
-                                        href={item.href}
+                                    <Link
+                                        to={item.href}
                                         className={linkClasses}
                                         style={defaultStyle}
                                         onMouseEnter={hoverIn}
@@ -531,7 +507,7 @@ const PillNav: React.FC<PillNavProps> = ({
                                         }
                                     >
                                         {item.label}
-                                    </a>
+                                    </Link>
                                 )}
                             </li>
                         );

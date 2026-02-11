@@ -29,3 +29,13 @@
     --color-textColor: #ffffff;
     --color-icon: #ffffff;
 }
+
+[data-theme='SkipTheFormalities'] {
+    --color-primary: #56a2ed;
+    --color-primary-var: #ca49b2;
+    --color-secondary: #1e0075;
+    --color-secondary-var: #f963de;
+    --color-bg: #7761a9;
+    --color-textColor: #ffffff;
+    --color-icon: #ffffff;
+}

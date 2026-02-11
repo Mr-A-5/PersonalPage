@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import type { ComponentType } from 'react';
 import { IoMail } from 'react-icons/io5';
 import { FaNewspaper } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 type IconProps = {
     size?: number;
@@ -51,9 +52,9 @@ export default function References({ className }: { className?: string }) {
             xl:pb-5"
             >
                 {links.map(({ icon: Icon, url, text }) => (
-                    <a
+                    <Link
                         key={url}
-                        href={url}
+                        to={url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-secondary flex flex-col justify-center items-center p-2 w-fit rounded-xl border border-black cursor-pointer ring-bg transition duration-300 ease-in-out ring-0 hover:ring-2
@@ -72,7 +73,7 @@ export default function References({ className }: { className?: string }) {
                         >
                             {text}
                         </span>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </Card>

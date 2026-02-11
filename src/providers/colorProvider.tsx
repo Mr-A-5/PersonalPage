@@ -14,6 +14,11 @@ export const videosMap: Record<string, Record<string, string | number>> = {
         duration: 298,
     },
     BallonGirl: { video: 'bQhB_v3sAXc', image: BallonGirl, duration: 240 },
+    SkipTheFormalities: {
+        video: 'CzJJrBFhxh4',
+        image: 'SkipTheFormalities.jpg',
+        duration: 265,
+    },
 };
 
 type colorContextType = {

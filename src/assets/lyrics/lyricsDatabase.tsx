@@ -318,4 +318,191 @@ export const lyricsDatabase: Record<string, SongLyrics> = {
             { time: 235, text: 'But I\'ll keep searching on for that "life"' },
         ],
     },
+    SkipTheFormalities: {
+        title: 'Skip the Formalities',
+        artist: '…',
+        videoId: 'CzJJrBFhxh4',
+        lines: [
+            {
+                time: 2,
+                text: 'Ding. The elevator stops',
+            },
+            {
+                time: 4,
+                text: 'Stuck into the cage where we allowed to get caught',
+            },
+            { time: 6, text: 'Hey. Is that coffee I smell?' },
+            { time: 8, text: 'The distraction from the thought to rebel' },
+            {
+                time: 10,
+                text: 'We attend the call',
+            },
+            {
+                time: 12,
+                text: "Kneeling to the spinning hands we've given control",
+            },
+            { time: 15, text: 'Wait' },
+            { time: 16, text: '(Hello. Please leave a message at the tone.)' },
+            {
+                time: 18,
+                text: "Here there's no games to play And yet you're always playing",
+            },
+            { time: 23, text: 'Reverie stuck in ovеrtime' },
+            {
+                time: 26,
+                text: "I feel like it's the first timе I've changed the place I'm in",
+            },
+            { time: 29, text: 'To be consulting you' },
+            {
+                time: 34,
+                text: "It's pushing for a raise. Or is our pushing rising?",
+            },
+            { time: 38, text: 'Our daily dose of morning shine' },
+            {
+                time: 42,
+                text: "Discovering what's color. In rooms stuck in gray",
+            },
+            { time: 46, text: 'Are my emotions coming through?' },
+            {
+                time: 50,
+                text: 'All day caught up in different tasks',
+            },
+            { time: 54, text: "Just can't let this chance pass" },
+            { time: 60, text: 'Would some extra time be too much to ask?' },
+            {
+                time: 68,
+                text: "Let's skip the formalities, and take the lead for once",
+            },
+            {
+                time: 71,
+                text: 'Or do these so called "hierarchies can beat our need to dance?',
+            },
+            {
+                time: 75,
+                text: "I hear insecurities. Well, let's put them on hold",
+            },
+            {
+                time: 80,
+                text: "I've waited for too long. For my line to be called",
+            },
+            {
+                time: 84,
+                text: "Let's be unprofessional and let's stop telling lies",
+            },
+            {
+                time: 88,
+                text: 'Are my true feelings well-disguised by wearing suits and ties?',
+            },
+            {
+                time: 92,
+                text: "There are things that can't be said inside the subject line",
+            },
+            {
+                time: 95,
+                text: 'Do I make myself clear? How can I make you mine?',
+            },
+            {
+                time: 102,
+                text: "It's worth discussing and it's worth holding a meeting",
+            },
+            {
+                time: 108,
+                text: "It's worth holding your hand. Whoa, wait",
+            },
+            {
+                time: 111,
+                text: 'The corporate ladder is too tall. A threat how easy it is to fall',
+            },
+            {
+                time: 116,
+                text: 'FOR YOU',
+            },
+            {
+                time: 118,
+                text: 'WAKE UP',
+            },
+            {
+                time: 120,
+                text: 'Does making all the rules. Make it much worse to break them?',
+            },
+            { time: 124, text: 'Running from whispers through the hall' },
+            {
+                time: 127,
+                text: "If this is right or this is wrong, I can't hang up the phone",
+            },
+            { time: 131, text: "Can't work through this agenda all alone" },
+            {
+                time: 135,
+                text: 'Asking what happened to my nights. Personal paradise',
+            },
+            {
+                time: 145,
+                text: 'How come that my dreams now show from nine to five?',
+            },
+            {
+                time: 152,
+                text: 'Learned to put my strongest front to be the one in charge',
+            },
+            {
+                time: 156,
+                text: 'Should I teach you the guidelines on the way into my heart',
+            },
+            {
+                time: 160,
+                text: "There's no need for emails there's no need for schedule sheets",
+            },
+            {
+                time: 165,
+                text: "As long as there's no stares we'll find our time to meet",
+            },
+            {
+                time: 169,
+                text: "That's enough of typing. Can't you see that you're my type?",
+            },
+            {
+                time: 173,
+                text: 'What other situation makes me love to work at night?',
+            },
+            {
+                time: 177,
+                text: "There are things that can't be said inside the subject line",
+            },
+            {
+                time: 182,
+                text: 'Do I make myself clear? How can I make you mine?',
+            },
+            {
+                time: 218,
+                text: "Let's skip the formalities, and take the lead for once",
+            },
+            {
+                time: 223,
+                text: 'Or do these so called "hierarchies can beat our need to dance?',
+            },
+            {
+                time: 228,
+                text: "I hear insecurities. Well, let's put them on hold",
+            },
+            {
+                time: 231,
+                text: "I've waited for too long. For my line to be called",
+            },
+            {
+                time: 236,
+                text: "Let's be unprofessional and let's stop telling lies",
+            },
+            {
+                time: 239,
+                text: 'Are my true feelings well-disguised by wearing suits and ties?',
+            },
+            {
+                time: 244,
+                text: "There are things that can't be said inside the subject line",
+            },
+            {
+                time: 248,
+                text: 'Do I make myself clear? How can I make you mine?',
+            },
+        ],
+    },
 };

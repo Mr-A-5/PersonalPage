@@ -36,24 +36,36 @@ export const projects: Record<Title, Project> = {
         image: P2P,
         link: 'https://github.com/Mr-A-5/BitTorrent-Style-P2P-Client',
     },
+    'Easy Investing': {
+        summary:
+            'Designed and deployed a full stack app where users can obtain services that facilitate some trading aspects for specific companies. User may create an account and select services such a articles news with sentiment, or current market status to be tracked for a selected company such as Amazon.',
+        description: '',
+        tech: ['React', 'TypeScript', 'Supabase', 'Next'],
+        techStack: ['React', 'Supabase', 'Next'],
+        image: 'EasyInvestingImage.png',
+        link: 'https://stock-sentiment-tracker.vercel.app/en',
+    },
 };
 
 export const projectsBySong: Record<string, string> = {
     IWishThatICouldFall: 'The Review Mediator',
     BallonGirl: 'P2P Simple BitTorrent',
+    SkipTheFormalities: 'Easy Investing',
 };
 
 export const projectsByTech: Record<string, string[]> = {
-    React: ['The Review Mediator'],
+    React: ['The Review Mediator', 'Easy Investing'],
     Python: ['P2P Simple BitTorrent'],
-    TypeScript: ['The Review Mediator'],
-    Supabase: ['The Review Mediator'],
+    TypeScript: ['The Review Mediator', 'Easy Investing'],
+    Supabase: ['The Review Mediator', 'Easy Investing'],
     Express: ['The Review Mediator'],
+    Next: ['Easy Investing'],
 };
 
 export const projectByTheme: Record<string, string> = {
     'The Review Mediator': 'IWishThatICouldFall',
     'P2P Simple BitTorrent': 'BallonGirl',
+    'Easy Investing': 'SkipTheFormalities',
 };
 
 export const projectsByTechStack: Record<string, string[]> = {

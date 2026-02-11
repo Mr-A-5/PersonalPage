@@ -2,7 +2,7 @@ import React from 'react';
 import { FaReact, FaPython } from 'react-icons/fa';
 import { RiSupabaseFill } from 'react-icons/ri';
 import type { ComponentType } from 'react';
-import { SiExpress, SiTypescript } from 'react-icons/si';
+import { SiExpress, SiTypescript, SiNextdotjs } from 'react-icons/si';
 
 type PlayProviderProps = {
     children: React.ReactNode;
@@ -17,6 +17,7 @@ export const techIcons: Record<
     Python: FaPython,
     Express: SiExpress,
     TypeScript: SiTypescript,
+    Next: SiNextdotjs,
 };
 
 export const techStacksIcons: Record<
