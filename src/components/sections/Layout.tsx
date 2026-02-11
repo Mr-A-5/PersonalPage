@@ -11,7 +11,7 @@ export default function Layout() {
                     logo={Github}
                     logoAlt="Github"
                     items={[
-                        { label: 'Home', href: '/' },
+                        { label: 'Home', href: '//' },
                         { label: 'Projects', href: '/projects' },
                     ]}
                     className="custom-nav min-w-[340px]"
