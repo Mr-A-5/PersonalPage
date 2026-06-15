@@ -2,13 +2,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link
-            rel="icon"
-            type="image/svg+xml"
-            href="/src/assets/images/projectImages/GitHub.png"
-        />
+        <link rel="icon" type="image/png" href="%BASE_URL%GitHub.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://miguelafernandezf.com/" />
+        <meta property="og:url" content="https://miguelafernandezf.com/" />
         <title>Miguel Fernandez | Software Engineer</title>
+        <script>
+            (function () {
+                var redirect = sessionStorage.redirect;
+                if (redirect) {
+                    delete sessionStorage.redirect;
+                    if (
+                        redirect !==
+                        window.location.pathname +
+                            window.location.search +
+                            window.location.hash
+                    ) {
+                        window.history.replaceState(null, '', redirect);
+                    }
+                }
+            })();
+        </script>
     </head>
     <body>
         <div id="root"></div>

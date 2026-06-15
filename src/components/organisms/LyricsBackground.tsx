@@ -61,7 +61,7 @@ export function LyricsBackground({ page }: LyricsProps) {
     }, [currentLyricIndex, theme, breakpoint]);
 
     return (
-        <div className="absolute inset-0 pointer-events-none z-[1] overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none z-1 overflow-hidden">
             <div
                 className="grid grid-rows-15 grid-cols-1 p-5 min-h-screen h-full
                 md:min-h-full md:h-full md:grid md:grid-cols-20 md:grid-rows-25 md:justify-items-center md:items-center"

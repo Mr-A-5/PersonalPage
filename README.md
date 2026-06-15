@@ -6,19 +6,19 @@ This repository contains the source code for my **personal portfolio website**, 
 
 ## 🚀 Features
 
--   Responsive design for desktop, tablet, and mobile devices
--   Interactive UI built with modern frontend technologies
--   Project showcase with detailed descriptions and technologies used
--   Smooth animations and transitions
--   Contact section with email integration
+- Responsive design for desktop, tablet, and mobile devices
+- Interactive UI built with modern frontend technologies
+- Project showcase with detailed descriptions and technologies used
+- Smooth animations and transitions
+- Contact section with email integration
 
 ---
 
 ## 🛠️ Built With
 
--   **React**
--   **TypeScript**
--   **Tailwind CSS**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
 
 ---
 
@@ -26,8 +26,8 @@ This repository contains the source code for my **personal portfolio website**, 
 
 ### Prerequisites
 
--   Node.js (v18 or higher recommended)
--   npm
+- Node.js (v18 or higher recommended)
+- npm
 
 ### Installation
 
@@ -39,6 +39,6 @@ npm run dev
 ```
 
 The app will be available at:
-`http://localhost:5173`
+`https://miguelafernandezf.com`
 
 ---

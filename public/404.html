@@ -1,19 +1,17 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="./GitHub.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script>
-            (function () {
-                var target =
-                    window.location.pathname +
-                    window.location.search +
-                    window.location.hash;
-                window.location.replace(
-                    '/?redirect=' + encodeURIComponent(target)
-                );
-            })();
+            sessionStorage.redirect =
+                window.location.pathname +
+                window.location.search +
+                window.location.hash;
+            window.location.replace(window.location.origin + '/');
         </script>
+        <title>Miguel Fernandez | Software Engineer</title>
     </head>
     <body></body>
 </html>

@@ -1,7 +1,7 @@
 import Main from './components/sections/Main';
 import { ColorProvider } from './providers/colorProvider';
 import { PlayingProvider } from './providers/playProvider';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Projects from './components/sections/Projects';
 import Layout from './components/sections/Layout';
 
