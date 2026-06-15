@@ -61,10 +61,10 @@ export function LyricsBackground({ page }: LyricsProps) {
     }, [currentLyricIndex, theme, breakpoint]);
 
     return (
-        <div className="absolute inset-0 top-0 pointer-events-none z-0">
+        <div className="absolute inset-0 pointer-events-none z-[1] overflow-hidden">
             <div
                 className="grid grid-rows-15 grid-cols-1 p-5 min-h-screen h-full
-                md:h-screen md:grid md:grid-cols-20 md:grid-rows-25 md:justify-items-center md:items-center"
+                md:min-h-full md:h-full md:grid md:grid-cols-20 md:grid-rows-25 md:justify-items-center md:items-center"
             >
                 {activeLyrics.map((lyric) => (
                     <div
@@ -86,13 +86,15 @@ export function LyricsBackground({ page }: LyricsProps) {
                             className="
                   animate-fade
                   text-textColor
-                  text-xl
+                  text-lg md:text-xl
                   font-extrabold
                   text-center
+                  opacity-70
+                  drop-shadow-[0_1px_2px_rgba(0,0,0,0.45)]
                   transition-opacity
                   duration-1000
                   text-wrap
-                  xl:p-2
+                  px-2 xl:p-2
                 "
                         >
                             {lyric.text}

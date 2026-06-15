@@ -11,7 +11,7 @@ function App() {
             <BrowserRouter basename="/PersonalPage">
                 <ColorProvider>
                     <PlayingProvider>
-                        <section className="overflow-hidden">
+                        <section className="overflow-x-hidden">
                             <Routes>
                                 <Route element={<Layout />}>
                                     <Route path="/" element={<Main />} />

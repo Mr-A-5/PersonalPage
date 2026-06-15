@@ -1,4 +1,3 @@
-import { RotatingText } from '../atoms/RotatingText';
 import { FadeSection } from './FadeSection';
 import AnimatedContent from '../../hooks/AnimatedContent';
 
@@ -15,6 +14,8 @@ export default function Card({
     fromLeft,
     className,
 }: CardProps) {
+    const headingText = heading?.[0];
+
     return (
         <div className={`${className}`}>
             <FadeSection>
@@ -33,22 +34,12 @@ export default function Card({
                 >
                     <div
                         className="flex flex-col bg-primary rounded-3xl p-5 pt-7 h-full
-                    md:p-3
-                    lg:p-4
-                    xl:p-3 xl:pt-3"
+                    md:p-4
+                    lg:p-5"
                     >
-                        {heading && (
-                            <h1
-                                className="h-fit mb-2 px-2 pb-2 border-b-2 font-bold
-                            "
-                            >
-                                <RotatingText
-                                    words={heading}
-                                    durations={[10000, 3000]}
-                                    className="text-xl font-bold text-textColor
-                                    md:text-base
-                                    lg:text-xl"
-                                />
+                        {headingText && (
+                            <h1 className="h-fit mb-3 px-2 pb-2 border-b-2 font-bold text-textColor text-[clamp(1rem,2vw,1.35rem)] leading-tight">
+                                {headingText}
                             </h1>
                         )}
                         {children}

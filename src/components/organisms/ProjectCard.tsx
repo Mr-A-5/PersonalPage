@@ -13,7 +13,7 @@ export default function ProjectCard({
 }) {
     return (
         <Card
-            heading={[`${title}`, 'Song Description']}
+            heading={[`${title}`]}
             fromLeft={false}
             className={`${className}`}
         >
@@ -49,9 +49,9 @@ export default function ProjectCard({
                                 />
                             </div>
                             <div
-                                className="flex-1 px-3 font-semibold 
-                    md:text-xs md:px-0 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3
-                    lg:text-sm lg:col-span-10 lg:row-start-6 lg:row-end-11 lg:self-start lg:h-full
+                                className="flex-1 px-3 font-semibold text-sm leading-relaxed
+                    md:text-[0.8rem] md:px-0 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3
+                    lg:text-[0.92rem] lg:col-span-10 lg:row-start-6 lg:row-end-11 lg:self-start lg:h-full
                     xl:col-span-10 xl:row-start-6 xl:row-end-11 xl:text-base xl:self-start xl:h-full"
                             >
                                 {project.summary}
@@ -119,9 +119,9 @@ export default function ProjectCard({
                             />
                         </div>
                         <div
-                            className="flex-1 px-3 font-semibold 
-                    md:text-xs md:px-0 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3
-                    lg:text-sm lg:col-span-10 lg:row-start-6 lg:row-end-11 lg:self-start lg:h-full
+                            className="flex-1 px-3 font-semibold text-sm leading-relaxed
+                    md:text-[0.8rem] md:px-0 md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3
+                    lg:text-[0.92rem] lg:col-span-10 lg:row-start-6 lg:row-end-11 lg:self-start lg:h-full
                     xl:col-span-10 xl:row-start-6 xl:row-end-11 xl:text-base xl:self-start xl:h-full"
                         >
                             {project.summary}

@@ -18,7 +18,7 @@ export default function QuickPicks({ className }: QuickPicksProps) {
     }
     return (
         <Card
-            heading={['Utilized Techs', 'Quick Picks']}
+            heading={['Utilized Techs']}
             fromLeft={true}
             className={`${className}`}
         >

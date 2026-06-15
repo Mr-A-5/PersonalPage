@@ -5,10 +5,10 @@ import { LyricsBackground } from '../organisms/LyricsBackground';
 
 export default function Projects() {
     return (
-        <div className="relative z-10 bg-bg flex flex-col w-screen min-h-screen h-fit text-white py-10">
+        <div className="relative bg-bg flex flex-col w-full min-h-screen h-fit text-white py-10">
             <LyricsBackground page="Projects" />
             <div
-                className="flex flex-col w-full pt-10 gap-4 justify-center items-center
+                className="relative z-10 flex flex-col w-full pt-10 gap-4 justify-center items-center
                 md:gap-4 md:p-10"
             >
                 <div

@@ -40,7 +40,7 @@ const links: {
 export default function References({ className }: { className?: string }) {
     return (
         <Card
-            heading={['Links', 'Artists']}
+            heading={['Links']}
             fromLeft={false}
             className={`pb-30 md:pb-0 ${className}`}
         >

@@ -3,7 +3,7 @@ import Card from '../molecules/Card';
 export default function AboutMe({ className }: { className: string }) {
     return (
         <Card
-            heading={['About Me', 'Artist Description']}
+            heading={['About Me']}
             fromLeft={false}
             className={`${className}`}
         >
@@ -12,10 +12,9 @@ export default function AboutMe({ className }: { className: string }) {
             md:p-4"
             >
                 <p
-                    className="
-                md:text-xs
-                lg:text-sm
-                xl:text-base"
+                    className="text-sm leading-relaxed
+                md:text-[0.92rem]
+                lg:text-base"
                 >
                     Hi, I’m Miguel Fernandez, a Full-Stack Web Developer based
                     in Dallas, TX. I specialize in building responsive,
