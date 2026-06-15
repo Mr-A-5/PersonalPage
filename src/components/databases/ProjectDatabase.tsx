@@ -1,5 +1,6 @@
-import TheReviewMediator from '../../assets/images/projectImages/TheReviewMediator.png';
-import P2P from '../../assets/images/projectImages/P2P.png';
+import TheReviewMediator from '/public/images/projectImages/TheReviewMediator.png';
+import P2P from '/public/images/projectImages/P2P.png';
+import EasyInvesting from '/public/images/projectImages/EasyInvestingImage.png';
 
 export type Title = string;
 
@@ -42,7 +43,7 @@ export const projects: Record<Title, Project> = {
         description: '',
         tech: ['React', 'TypeScript', 'Supabase', 'Next'],
         techStack: ['React', 'Supabase', 'Next'],
-        image: 'EasyInvestingImage.png',
+        image: EasyInvesting,
         link: 'https://stock-sentiment-tracker.vercel.app/en',
     },
 };

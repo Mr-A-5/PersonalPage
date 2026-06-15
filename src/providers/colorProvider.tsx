@@ -1,6 +1,6 @@
 import React from 'react';
-import BallonGirl from '../assets/images/BallonGirl.png';
-import IWishThatICouldFall from '../assets/images/IWishThatICouldFall.png';
+import BallonGirl from '/images/BallonGirl.png';
+import IWishThatICouldFall from '/images/IWishThatICouldFall.png';
 
 type colorProviderProps = {
     children: React.ReactNode;
@@ -16,7 +16,7 @@ export const videosMap: Record<string, Record<string, string | number>> = {
     BallonGirl: { video: 'bQhB_v3sAXc', image: BallonGirl, duration: 240 },
     SkipTheFormalities: {
         video: 'CzJJrBFhxh4',
-        image: 'SkipTheFormalities.jpg',
+        image: '/SkipTheFormalities.jpg',
         duration: 265,
     },
 };

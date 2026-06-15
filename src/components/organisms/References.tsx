@@ -27,7 +27,7 @@ const links: {
     },
     {
         icon: FaNewspaper,
-        url: 'Res12_25.pdf',
+        url: '/Res06_26.pdf',
         text: 'Resume',
     },
     {
