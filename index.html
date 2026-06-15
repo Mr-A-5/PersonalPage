@@ -2,11 +2,41 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/PersonalPage/vite.svg" />
+        <link rel="icon" type="image/png" href="/GitHub.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>personal-page</title>
-      <script type="module" crossorigin src="/PersonalPage/assets/index-ChHZF8kD.js"></script>
-      <link rel="stylesheet" crossorigin href="/PersonalPage/assets/index-D8cvhW8k.css">
+        <link rel="canonical" href="https://miguelafernandezf.com/" />
+        <meta
+            property="og:title"
+            content="Miguel Asterio Fernandez Finol| Software Engineer"
+        />
+        <meta
+            property="og:description"
+            content="Welcome to my personal website!"
+        />
+        <meta
+            property="og:image"
+            content="https://miguelafernandezf.com/GitHub.png"
+        />
+        <meta property="og:url" content="https://miguelafernandezf.com/" />
+        <title>Miguel Asterio Fernandez Finol | Software Engineer</title>
+        <script>
+            (function () {
+                var redirect = sessionStorage.redirect;
+                if (redirect) {
+                    delete sessionStorage.redirect;
+                    if (
+                        redirect !==
+                        window.location.pathname +
+                            window.location.search +
+                            window.location.hash
+                    ) {
+                        window.history.replaceState(null, '', redirect);
+                    }
+                }
+            })();
+        </script>
+      <script type="module" crossorigin src="/assets/index-BDSBwPLf.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-CWUrh_1S.css">
     </head>
     <body>
         <div id="root"></div>
