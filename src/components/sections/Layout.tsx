@@ -1,7 +1,7 @@
 // components/layout/Layout.tsx
 import { Outlet } from 'react-router-dom';
 import PillNav from '../organisms/NavBar';
-import Github from '../../assets/images/projectImages/GitHub.png';
+import Github from '../../../public/GitHub.png';
 
 export default function Layout() {
     return (
