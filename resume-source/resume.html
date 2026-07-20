@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Miguel Fernandez — Resume</title>
+<style>
+  @page { size: Letter; margin: 0.45in 0.6in; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Calibri", "Carlito", "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.6pt;
+    line-height: 1.25;
+    color: #1a1a1a;
+  }
+  a { color: #1a4f8a; text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 7.44pt; }
+  h1 {
+    margin: 0;
+    font-size: 19.53pt;
+    letter-spacing: 2.23pt;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .subtitle {
+    margin-top: 2.79pt;
+    font-size: 10.23pt;
+    letter-spacing: 1.12pt;
+    text-transform: uppercase;
+    color: #444;
+  }
+  .contact { margin-top: 3.72pt; font-size: 9.30pt; color: #333; }
+  .contact span { white-space: nowrap; }
+  .sep { color: #aaa; padding: 0 4.65pt; }
+
+  .summary { margin: 7.44pt 0 0; text-align: justify; }
+
+  h2 {
+    margin: 10.23pt 0 4.65pt;
+    font-size: 9.95pt;
+    letter-spacing: 1.58pt;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1.02pt solid #1a1a1a;
+    padding-bottom: 2.33pt;
+  }
+
+  .entry { margin-bottom: 6.98pt; }
+  .entry:last-child { margin-bottom: 0; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 9.30pt;
+  }
+  .title { font-weight: 700; font-size: 10.32pt; }
+  .meta { font-size: 8.93pt; color: #555; white-space: nowrap; }
+  .stack {
+    font-size: 8.93pt;
+    color: #1a4f8a;
+    font-weight: 600;
+    margin: 1.40pt 0 2.79pt;
+  }
+  .purpose { margin: 0 0 3.26pt; text-align: justify; }
+
+  ul { margin: 0; padding-left: 13.95pt; }
+  li { margin-bottom: 2.14pt; text-align: justify; }
+  li:last-child { margin-bottom: 0; }
+
+  .skills p { margin: 0 0 2.98pt; }
+
+  .edu-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-row + .edu-row { margin-top: 2.98pt; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Miguel Fernandez</h1>
+  <div class="subtitle">Full-Stack Web Developer</div>
+  <div class="contact">
+    <span>Carrollton, TX</span><span class="sep">|</span>
+    <span>(469) 758-7608</span><span class="sep">|</span>
+    <span>asteriofinol@gmail.com</span><br />
+    <span>miguelafernandezf.com</span><span class="sep">|</span>
+    <span>github.com/Mr-A-5</span><span class="sep">|</span>
+    <span>linkedin.com/in/miguel-fernandez-0658ab242</span>
+  </div>
+</header>
+
+<p class="summary">
+  Full-stack developer who has shipped a live business site end to end — design, bilingual content
+  architecture, database, and deploy. I work primarily in TypeScript, React, and Next.js on top of
+  Postgres, and I care about interfaces that hold up on the phones people actually use. Recent
+  Computer Science graduate from UT Dallas looking for a team where I can grow as an engineer.
+</p>
+
+<h2>Featured Project</h2>
+
+<div class="entry">
+  <div class="row">
+    <span class="title">Bip Bip Driving School — Bilingual Driver Education Platform</span>
+    <span class="meta">bipbipdrivingschool.com</span>
+  </div>
+  <div class="stack">Next.js &middot; React &middot; TypeScript &middot; Tailwind CSS &middot; Supabase (PostgreSQL)</div>
+  <p class="purpose">
+    A licensed North Texas driving school had no way to present its courses online, and its
+    customers are split between English and Spanish speakers. I designed and built the production
+    site that is now the school's storefront and enrollment funnel — sole developer, from client
+    requirements through deployment.
+  </p>
+  <ul>
+    <li>
+      Built a fully bilingual (Spanish / English) course site from a single codebase: every page,
+      form label, and legal notice comes from a shared content layer, so the school updates copy
+      once and both languages stay in sync instead of drifting apart.
+    </li>
+    <li>
+      Designed the site to satisfy Texas Department of Licensing and Regulation (TDLR)
+      requirements for driver education providers — school license details, approved course and
+      curriculum information, instructor credentials, and required student disclosures, presented
+      clearly in both languages.
+    </li>
+    <li>
+      Modeled the course catalog, schedules, pricing, and translated content in Supabase
+      (PostgreSQL) so non-technical staff can change offerings without a developer or a redeploy.
+    </li>
+    <li>
+      Took a mobile-first approach after seeing that nearly all traffic arrives on phones:
+      responsive layouts, tap-friendly targets, and accessible contrast from a 360&nbsp;px screen
+      up through desktop.
+    </li>
+  </ul>
+</div>
+
+<h2>Additional Project</h2>
+
+<div class="entry">
+  <div class="row">
+    <span class="title">The Review Mediator</span>
+  </div>
+  <div class="stack">TypeScript &middot; React &middot; Express &middot; Supabase &middot; Clerk</div>
+  <ul>
+    <li>
+      Full-stack platform that lets businesses file and track disputes over online reviews. Built
+      the responsive React front end, wrote authenticated Express API endpoints secured with
+      Clerk, and helped design the Supabase schema behind them.
+    </li>
+  </ul>
+</div>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+  <p><b>Languages:</b> TypeScript, JavaScript, Python, Java, C++, SQL, HTML5, CSS3</p>
+  <p><b>Frontend:</b> React, Next.js, Tailwind CSS, Vite, React Native, responsive &amp; accessible UI</p>
+  <p><b>Backend &amp; Data:</b> Node.js, Express, FastAPI, Supabase, PostgreSQL, REST API design, Clerk authentication</p>
+  <p><b>Tools &amp; DevOps:</b> Git, GitHub, Docker, Vercel, Postman, Figma</p>
+  <p><b>Other:</b> Fluent Spanish and English (native bilingual), localization, teamwork and client communication</p>
+</div>
+
+<h2>Experience</h2>
+<div class="entry">
+  <div class="row">
+    <span class="title">Bilingual Receptionist — Tax Mart</span>
+    <span class="meta">Dallas, TX &middot; Feb 2025 – May 2025</span>
+  </div>
+  <ul>
+    <li>
+      Served as the English/Spanish bridge between clients and staff, translating in person and
+      making sure Spanish-speaking customers understood the services they were signing up for.
+    </li>
+    <li>
+      Maintained confidential client records and verified filing paperwork for accuracy before
+      submission, working under company privacy policy.
+    </li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="edu-row">
+  <span><b>B.S. in Computer Science</b> — The University of Texas at Dallas, Richardson, TX</span>
+  <span class="meta">2024 – 2026</span>
+</div>
+<div class="edu-row">
+  <span><b>A.S. in General Studies</b> — Collin College, Plano, TX</span>
+  <span class="meta">2022 – 2024</span>
+</div>
+
+</body>
+</html>
