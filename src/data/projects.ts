@@ -25,4 +25,14 @@ export const projects: Project[] = [
         repo: null,
         demo: 'https://bipbipdrivingschool.com/',
     },
+    {
+        name: 'The Review Mediator',
+        tagline: 'Capstone Review-Dispute Platform',
+        description: `A capstone platform built with a UTD student engineering team that lets businesses track, manage, and file disputes over their online reviews. I developed the secure, authenticated Express API endpoints — gated by Clerk — that tie the React interface to a Supabase PostgreSQL database where dispute records are stored and tracked. Built as a private project during my studies, so there is no public demo.`,
+        tech: ['TypeScript', 'React', 'Express', 'Supabase', 'PostgreSQL', 'Clerk'],
+        primaryTech: ['React', 'Express', 'Supabase'],
+        color: '#5b8cff',
+        repo: null,
+        demo: null,
+    },
 ];

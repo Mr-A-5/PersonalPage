@@ -57,6 +57,7 @@ export default function About() {
                         </a>
                         <a
                             href={site.resume}
+                            download
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 rounded-full border border-border-strong px-5 py-2.5 font-display text-sm font-semibold transition-colors hover:border-accent-2 hover:text-accent-2"
