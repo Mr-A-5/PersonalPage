@@ -5,7 +5,7 @@ export const site = {
     email: 'asteriofinol@gmail.com',
     github: 'https://github.com/Mr-A-5',
     linkedin: 'https://www.linkedin.com/in/miguel-fernandez-0658ab242/',
-    resume: '/Res_07_26.pdf',
+    resume: '/public/Miguel_Fernandez_BS_CS_07_26.pdf',
     avatar: '/ProfilePicture.jpg',
 } as const;
 

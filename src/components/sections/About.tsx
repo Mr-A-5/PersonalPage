@@ -103,7 +103,7 @@ export default function About() {
                         />
                     </div>
 
-                    <div className="w-full rounded-2xl border border-border bg-surface/70 p-5 backdrop-blur-sm">
+                    {/* <div className="w-full rounded-2xl border border-border bg-surface/70 p-5 backdrop-blur-sm">
                         <p className="font-mono text-[11px] tracking-[0.2em] text-accent-2">
                             EDUCATION
                         </p>
@@ -122,7 +122,7 @@ export default function About() {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

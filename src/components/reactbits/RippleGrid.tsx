@@ -47,11 +47,23 @@ const RippleGrid: React.FC<Props> = ({
         : [1, 1, 1];
     };
 
-    const renderer = new Renderer({
-      dpr: Math.min(window.devicePixelRatio, 2),
-      alpha: true
-    });
+    // A browser with hardware acceleration off, a blocklisted GPU, or too many
+    // live contexts hands back a null WebGL context. ogl dereferences it
+    // unconditionally, so catch that here and simply skip the backdrop rather
+    // than take the whole page down with it.
+    let renderer: Renderer;
+    try {
+      renderer = new Renderer({
+        dpr: Math.min(window.devicePixelRatio, 2),
+        alpha: true
+      });
+    } catch {
+      return;
+    }
+
     const gl = renderer.gl;
+    if (!gl) return;
+
     gl.enable(gl.BLEND);
     gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
     gl.canvas.style.width = '100%';
